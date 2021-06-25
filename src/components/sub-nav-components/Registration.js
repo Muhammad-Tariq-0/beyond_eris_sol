@@ -7,9 +7,9 @@ const Registration = () => {
 
 <table id="customers">
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>Categary</th>
+    <th>Register by 10/7/2020</th>
+    <th>Late Registration by 10/7/2020</th>
   </tr>
   <tr>
     <td>Alfreds Futterkiste</td>
