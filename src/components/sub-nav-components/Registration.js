@@ -2,17 +2,24 @@ import React from 'react'
 import './subNav.css'
 const Registration = () => {
     return (
-        <div className='CO'>
+        <div className="Reg-side">
+              <ul>
+                  <li>
+                      <h5>Note: Registration fee excluding VAT.</h5>
+                  </li>
+              </ul> 
+              
             <h5>
-            Kick off IDWeek with 24 hours of COVID-19 during Chasing the Sun. This global event will begin on
-Wednesday, Oct. 21 at 9 a.m. ET and conclude on Thursday, Oct. 22 at 9:30 a.m. ET. IDWeek and its partners
-are joining forces with recognized scientific agencies, non-governmental agencies and infectious diseases
-organizations from around the world including the Centers for Disease Control and Prevention (CDC), the
-American Society of Microbiology, Asociación Panamericana de Infectologia, the Chinese Society of Infectious
-Diseases, the European Society of Clinical Microbiology, and the Japanese Association for Infectious Diseases
-each bringing unique global perspectives and data to cover various aspects of COVID-19 including clinical
-presentation, treatments, diagnostics, vaccine development, infection control and mitigation strategies and
-other late breaking issues. Closed captioning in English will be available for this program.
+I am a paragraph. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the
+cites of the word in classical literature, discovered the undoubtable source.
+Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
+Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used
+since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"
+by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H.
+Rackham.
             </h5>
         </div>
     )
