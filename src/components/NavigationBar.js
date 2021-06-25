@@ -1,16 +1,16 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../images/logo_colored_png.png'
-import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
-
-import diplomats_Advocate_INFJ_personality_header from '../images/personality_types_details/diplomats_Advocate_INFJ_personality_header.svg'
-import phila from '../images/phila.jpeg'
+import { Navbar, Container, Nav } from 'react-bootstrap';
 import homepic from '../images/homepic.png'
+import {
+    Link
+} from 'react-router-dom';
 import './Nav.css'
 const NavigationBar = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" style={{backgroundColor:'#041E42'}}>
                 <Container>
                     <Navbar.Brand href="/">
                         <a href="/" className='logo'>
@@ -47,25 +47,29 @@ const NavigationBar = () => {
                 </div>
             </div>
 
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" style={{backgroundColor:'#041E42'}}>
                 <Container>
-                 
+
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="#" className='text-nav2'>
-                            Conference Overview
+                            <Nav.Link href="#">
+                                <Link className='text-nav2' to='/'>
+                                    Conference Overview
+                                </Link>
                             </Nav.Link>
                             <div className="vl"></div>
-                            <Nav.Link href="#" className='text-nav2'>
-                            Registration
+                            <Nav.Link href="#">
+                                <Link className='text-nav2' to='registration'>Registration</Link>
                             </Nav.Link>
                             <div className="vl"></div>
-                            <Nav.Link href="#" className='text-nav2'>
-                            Travel Information
+                            <Nav.Link href="#">
+                                <Link className='text-nav2' to='travelInfo'>
+                                    Travel Information
+                                </Link>
                             </Nav.Link>
-                             <div className="vl"></div>
-                           
+                            <div className="vl"></div>
+
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

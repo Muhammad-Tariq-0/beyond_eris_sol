@@ -82,4 +82,17 @@
 .text-nav2{
   color: white !important;
  font-size: 25px;
+ text-decoration: none;
+}
+
+.text-nav2:hover{
+  color: yellow !important;
+ font-size: 25px;
+ text-decoration: none;
+}
+
+.text-nav2-active{
+  color: yellow !important;
+ font-size: 25px;
+ text-decoration: none;
 }
